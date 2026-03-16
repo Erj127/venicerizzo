@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rizzo Venezia | Bakery, Street Food e Dolci Veneziani</title>
+    <meta
+      name="description"
+      content="Rizzo Venezia: forno e street food veneziano. Trova i negozi a Venezia, scopri il menu e acquista dolci tipici online."
+    />
+    <meta name="theme-color" content="#2b2d42" />
+    <meta property="og:title" content="Rizzo Venezia | Bakery, Street Food e Dolci Veneziani" />
+    <meta
+      property="og:description"
+      content="Il gusto autentico di Venezia, ogni giorno. Negozi, menu street food e shop online."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": ["Bakery", "Restaurant", "LocalBusiness"],
+        "@id": "https://www.rizzovenezia.it/it/negozi/cannaregio#store",
+        "name": "Rizzo Venezia - Cannaregio (San Leonardo)",
+        "url": "https://www.rizzovenezia.it/it/negozi/cannaregio",
+        "telephone": "+39-041-000-0000",
+        "priceRange": "€€",
+        "servesCuisine": ["Venetian", "Bakery", "Street Food", "Italian"],
+        "description": "Forno veneziano con pane artigianale, tramezzini, gastronomia e dolci tradizionali nel cuore di Cannaregio.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rio Terà San Leonardo 000",
+          "addressLocality": "Venezia",
+          "addressRegion": "VE",
+          "postalCode": "30121",
+          "addressCountry": "IT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 45.4444,
+          "longitude": 12.3262
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "07:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "08:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": [
+          "https://www.instagram.com/rizzovenezia",
+          "https://www.facebook.com/rizzovenezia"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Vai al contenuto</a>
+
+    <header class="site-header" aria-label="Intestazione principale">
+      <div class="topbar container">
+        <div class="lang-switch" aria-label="Lingua sito">IT | EN</div>
+        <a href="tel:+390410000000" class="phone-link">+39 041 000 0000</a>
+      </div>
+
+      <div class="navbar container">
+        <a class="brand" href="#home" aria-label="Home Rizzo Venezia">
+          <p class="logo">Rizzo Venezia</p>
+          <p class="claim">Bakery • Street Food • Venezia dal 19XX</p>
+        </a>
+
+        <nav aria-label="Menu principale" class="desktop-nav">
+          <a href="#best-seller">Best Seller</a>
+          <a href="#negozi">Negozi</a>
+          <a href="#menu">Menu</a>
+          <a href="#shop">Shop</a>
+          <a href="#contatti">Contatti</a>
+        </nav>
+
+        <div class="nav-actions" aria-label="Azioni rapide">
+          <a class="icon-btn" href="#menu" aria-label="Vai al menu">🍽️</a>
+          <a class="icon-btn" href="#shop" aria-label="Vai allo shop">🛒<span class="badge">2</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero" aria-label="Presentazione Rizzo Venezia">
+        <div class="hero-media" role="img" aria-label="Banco forno artigianale veneziano"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+          <p class="kicker">Venezia autentica • Bakery & Street Food</p>
+          <h1>Il gusto autentico di Venezia, ogni giorno.</h1>
+          <p>
+            Dal forno storico allo street food: artigianalità veneziana da gustare in città o da ricevere a casa con il nostro shop online.
+          </p>
+          <div class="cta-grid">
+            <a class="btn btn-primary" href="#negozi">Scopri i nostri Negozi a Venezia</a>
+            <a class="btn btn-secondary" href="#menu">Il Nostro Menu Street Food</a>
+            <a class="btn btn-ghost" href="#shop">Acquista i Dolci Veneziani Online</a>
+          </div>
+          <small>Consegna in Italia e all'estero per selezione prodotti secchi.</small>
+        </div>
+      </section>
+
+      <section id="best-seller" class="section container">
+        <div class="section-heading">
+          <h2>Best Seller del Giorno</h2>
+          <p>Selezione fresca preparata ogni giorno nei nostri forni.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=700&q=80" alt="Tramezzino veneziano" loading="lazy" />
+            <div class="card-body">
+              <h3>Tramezzino veneziano</h3>
+              <p class="price">da €4,50</p>
+              <p class="tags"><span>Vegetariano</span> <span>Contiene glutine</span></p>
+              <button class="btn btn-small" type="button">Disponibile in negozio</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1549583048-64e553d8f3d9?auto=format&fit=crop&w=700&q=80" alt="Mozzarella in carrozza" loading="lazy" />
+            <div class="card-body">
+              <h3>Mozzarella in carrozza</h3>
+              <p class="price">da €5,00</p>
+              <p class="tags"><span>Vegetariano</span> <span>Latticini</span></p>
+              <button class="btn btn-small" type="button">Aggiungi al carrello</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=700&q=80" alt="Focaccia artigianale" loading="lazy" />
+            <div class="card-body">
+              <h3>Focaccia artigianale</h3>
+              <p class="price">da €3,90</p>
+              <p class="tags"><span>Vegano</span> <span>Senza lattosio</span></p>
+              <button class="btn btn-small" type="button">Aggiungi al carrello</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=700&q=80" alt="Baicoli veneziani" loading="lazy" />
+            <div class="card-body">
+              <h3>Baicoli veneziani</h3>
+              <p class="price">da €8,90</p>
+              <p class="tags"><span>Tipico</span> <span>Prodotto secco</span></p>
+              <button class="btn btn-small" type="button">Aggiungi al carrello</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="negozi" class="section stores">
+        <div class="container">
+          <div class="section-heading">
+            <h2>I nostri negozi a Venezia</h2>
+            <p>Orari aggiornati automaticamente in base all'ora locale di Venezia.</p>
+          </div>
+
+          <div class="store-grid">
+            <article class="store-card" data-store-name="San Leonardo (Cannaregio)" data-open-week="07:00" data-close-week="20:00" data-open-sun="08:00" data-close-sun="19:00">
+              <h3>San Leonardo (Cannaregio)</h3>
+              <p>07:00 - 20:00 (dom 08:00 - 19:00)</p>
+              <p class="store-status" aria-live="polite"></p>
+              <a class="btn btn-small" target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=45.4444,12.3262">Portami qui</a>
+            </article>
+
+            <article class="store-card" data-store-name="Ca' D’Oro" data-open-week="07:30" data-close-week="19:30" data-open-sun="08:30" data-close-sun="18:30">
+              <h3>Ca' D’Oro</h3>
+              <p>07:30 - 19:30 (dom 08:30 - 18:30)</p>
+              <p class="store-status" aria-live="polite"></p>
+              <a class="btn btn-small" target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=45.4419,12.3367">Portami qui</a>
+            </article>
+
+            <article class="store-card" data-store-name="Lido" data-open-week="08:00" data-close-week="19:00" data-open-sun="08:00" data-close-sun="19:00">
+              <h3>Lido</h3>
+              <p>08:00 - 19:00</p>
+              <p class="store-status" aria-live="polite"></p>
+              <a class="btn btn-small" target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=45.4145,12.3705">Portami qui</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section container">
+        <div class="section-heading">
+          <h2>Menu Street Food</h2>
+          <p>Linea completa tra forno, gastronomia e pasticceria.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Categorie menu">
+          <button id="tab-pane" class="tab active" role="tab" aria-selected="true" aria-controls="panel-pane" tabindex="0" data-target="panel-pane">Pane e Lievitati</button>
+          <button id="tab-gastro" class="tab" role="tab" aria-selected="false" aria-controls="panel-gastro" tabindex="-1" data-target="panel-gastro">Gastronomia & Street Food</button>
+          <button id="tab-dolci" class="tab" role="tab" aria-selected="false" aria-controls="panel-dolci" tabindex="-1" data-target="panel-dolci">Pasticceria</button>
+        </div>
+
+        <div class="tab-panels">
+          <article id="panel-pane" class="panel active" role="tabpanel" tabindex="0" aria-labelledby="tab-pane">
+            <h3>Pane a lievito madre</h3>
+            <p>Crosta croccante, alveolatura naturale, lavorazione lenta.</p>
+          </article>
+
+          <article id="panel-gastro" class="panel" role="tabpanel" tabindex="0" aria-labelledby="tab-gastro" hidden>
+            <h3>Polpette e fritti veneziani</h3>
+            <p>Street food caldo pronto in pochi minuti, ideale anche takeaway.</p>
+          </article>
+
+          <article id="panel-dolci" class="panel" role="tabpanel" tabindex="0" aria-labelledby="tab-dolci" hidden>
+            <h3>Bussolai & specialità stagionali</h3>
+            <p>Ricette tradizionali veneziane, perfette anche come regalo.</p>
+          </article>
+        </div>
+
+        <a class="btn btn-primary" href="#shop">Esplora il Menu completo</a>
+      </section>
+
+      <section id="shop" class="section shop">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Shop Online</h2>
+            <p>Spedizioni tracciate per prodotti secchi e gift box veneziane.</p>
+          </div>
+
+          <div class="shop-layout">
+            <ul>
+              <li>Baicoli</li>
+              <li>Bussolai</li>
+              <li>Kit regalo veneziano</li>
+              <li>Panettone stagionale</li>
+            </ul>
+
+            <div class="trust-box">
+              <p>✅ Pagamenti sicuri</p>
+              <p>✅ Spedizioni tracciate</p>
+              <p>✅ Assistenza WhatsApp</p>
+              <a class="btn btn-secondary" href="#contatti">Vai allo Shop</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container story" aria-label="Storia del brand">
+        <div>
+          <h2>La nostra storia</h2>
+          <p>Da laboratorio storico veneziano a punto di riferimento per bakery e street food locale.</p>
+          <a class="text-link" href="#contatti">Scopri la nostra storia</a>
+        </div>
+      </section>
+
+      <section class="section newsletter" id="contatti">
+        <div class="container">
+          <h2>Entra nel forno di Rizzo: -10% sul primo ordine online</h2>
+          <form class="newsletter-form" novalidate>
+            <label>
+              Nome
+              <input type="text" name="name" required minlength="2" maxlength="80" autocomplete="given-name" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required maxlength="120" autocomplete="email" />
+            </label>
+
+            <label>
+              Lingua preferita
+              <select name="language" aria-label="Lingua preferita newsletter">
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+              </select>
+            </label>
+
+            <label class="consent">
+              <input type="checkbox" name="privacy" required />
+              Accetto la privacy policy GDPR.
+            </label>
+
+            <label class="hidden-field" aria-hidden="true">
+              Non compilare
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
+            </label>
+
+            <button type="submit" class="btn btn-primary">Ottieni il codice sconto</button>
+            <p class="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <nav class="mobile-bottom-nav" aria-label="Navigazione rapida mobile">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#negozi">Negozi</a>
+      <a href="#shop">Shop</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="logo">Rizzo Venezia</p>
+          <p>Cannaregio · Ca' D’Oro · Lido</p>
+          <p><a href="tel:+390410000000">+39 041 000 0000</a></p>
+        </div>
+        <nav aria-label="Link rapidi">
+          <a href="#menu">Menu</a>
+          <a href="#shop">Shop</a>
+          <a href="#contatti">FAQ</a>
+          <a href="#contatti">Spedizioni e Resi</a>
+        </nav>
+        <nav aria-label="Legali">
+          <a href="#contatti">Privacy</a>
+          <a href="#contatti">Cookie</a>
+          <a href="#contatti">Termini</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
